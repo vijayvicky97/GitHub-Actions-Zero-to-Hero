@@ -25,4 +25,5 @@ jobs:
     - name: Run tests
       run: |
         cd src
+        echo "hello"
         python -m pytest addition.py
